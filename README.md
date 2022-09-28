@@ -32,6 +32,8 @@ Notes:
 7. Bootswatch defines the style of the application.
 8. shift+option+down => copy downloads
    option+cursor => choose many places
+9. uuid library = universal unique identifier
+   a python library that generates random objects
 
 
 Frontend and Backend:
