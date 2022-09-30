@@ -1,0 +1,48 @@
+Last login: Tue Sep 20 22:24:44 on ttys000
+yuyuzhang@yuyudeMBP ~ % cd bootcamp/lab
+yuyuzhang@yuyudeMBP lab % cd lab
+cd: no such file or directory: lab
+yuyuzhang@yuyudeMBP lab % ls
+amgs-webui	files		h1		q2.ipynb
+yuyuzhang@yuyudeMBP lab % mkdir hw h2
+yuyuzhang@yuyudeMBP lab % cd h2
+cd: no such file or directory: h2
+yuyuzhang@yuyudeMBP lab % cd hw/h2
+yuyuzhang@yuyudeMBP h2 % mkdir flask-vue
+yuyuzhang@yuyudeMBP h2 % cd flask-vue
+yuyuzhang@yuyudeMBP flask-vue % mkdir backend frontend
+yuyuzhang@yuyudeMBP flask-vue % cd backend
+yuyuzhang@yuyudeMBP backend % pipenv shell      
+zsh: command not found: pipenv
+yuyuzhang@yuyudeMBP backend % python3 -m venv venv               
+yuyuzhang@yuyudeMBP backend % . venv/bin/activate
+(venv) yuyuzhang@yuyudeMBP backend % nano requirements.txt
+
+
+
+
+
+  GNU nano 2.0.6            File: requirements.txt                    Modified  
+
+Flask == 2.0.1
+Flask-Cors == 3.0.10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
