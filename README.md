@@ -41,5 +41,6 @@ Frontend and Backend:
 1. Frontend local: localhost:3000,
    Backend local: 127.0.0.1:5000 (localhost:5000)
 2. Run frontend: npm run serve
-   Run backend: . venv/bin/activate
+   Run backend: python3 -m venv venv
+                . venv/bin/activate
                 python3 main.py
